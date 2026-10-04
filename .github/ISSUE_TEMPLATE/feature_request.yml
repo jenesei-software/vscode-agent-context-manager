@@ -21,5 +21,6 @@ body:
     id: alternatives
     attributes:
       label: Alternatives
+      description: Other approaches or workarounds you tried.
     validations:
       required: false

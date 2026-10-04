@@ -10,4 +10,5 @@
 
 - [ ] `npm run check` passes
 - [ ] `npm test` passes
+- [ ] A bullet is added under `## [Unreleased]` in `CHANGELOG.md`
 - [ ] Documentation updated when behavior or settings changed

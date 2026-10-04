@@ -3,7 +3,7 @@ import * as vscode from "vscode";
 import { APP_IDS, type AppId } from "./model/types";
 import { homeDir, resolveToken } from "./util/paths";
 
-const CONFIG_SECTION = "agentContext";
+export const CONFIG_SECTION = "agentContext";
 
 export const KEYS = {
   agentsRoot: "agentsRoot",
@@ -11,12 +11,12 @@ export const KEYS = {
   enabledApps: "enabledApps",
 } as const;
 
-function configuration(): vscode.WorkspaceConfiguration {
+export function getConfig(): vscode.WorkspaceConfiguration {
   return vscode.workspace.getConfiguration(CONFIG_SECTION);
 }
 
 export function agentsRootSetting(): string {
-  const configured = configuration().get<string>(KEYS.agentsRoot)?.trim() ?? "";
+  const configured = getConfig().get<string>(KEYS.agentsRoot)?.trim() ?? "";
   if (configured === "") {
     return path.join(homeDir(), ".agents");
   }
@@ -24,11 +24,11 @@ export function agentsRootSetting(): string {
 }
 
 export function showThirdPartySkills(): boolean {
-  return configuration().get<boolean>(KEYS.showThirdPartySkills) ?? true;
+  return getConfig().get<boolean>(KEYS.showThirdPartySkills) ?? true;
 }
 
 export function enabledApps(): AppId[] {
-  const configured = configuration().get<string[]>(KEYS.enabledApps);
+  const configured = getConfig().get<string[]>(KEYS.enabledApps);
   const known = new Set<string>(APP_IDS);
   if (!configured || configured.length === 0) {
     return [...APP_IDS];

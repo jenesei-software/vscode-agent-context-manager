@@ -1,0 +1,18 @@
+{
+  "view.summary": "Übersicht",
+  "view.skills": "Skills",
+  "view.rules": "Regeln & Anweisungen",
+  "view.agents": "Agents",
+  "view.mcp": "MCP-Server",
+  "view.commands": "Befehle",
+  "view.plugins": "Plugins",
+  "view.health": "Integrität",
+  "view.applicability": "Anwendbarkeit",
+  "command.refresh": "Aktualisieren",
+  "command.showApplicability": "Anwendbarkeit anzeigen",
+  "command.openSettings": "Einstellungen öffnen",
+  "config.title": "Agent Context Manager",
+  "config.agentsRoot": "Kanonisches Verzeichnis für die Agent-Konfiguration. Leer lassen, um `~/.agents` zu verwenden.",
+  "config.showThirdPartySkills": "Auch Skills aus Drittanbieter-Speicherorten wie `~/.copilot/skills` und `~/.claude/skills` auflisten.",
+  "config.enabledApps": "Anwendungen, die in der Ansicht „Anwendbarkeit“ und in Entitäts-Tooltips angezeigt werden."
+}

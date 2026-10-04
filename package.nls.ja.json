@@ -1,0 +1,18 @@
+{
+  "view.summary": "概要",
+  "view.skills": "スキル",
+  "view.rules": "ルールと指示",
+  "view.agents": "エージェント",
+  "view.mcp": "MCP サーバー",
+  "view.commands": "コマンド",
+  "view.plugins": "プラグイン",
+  "view.health": "ヘルス",
+  "view.applicability": "適用範囲",
+  "command.refresh": "更新",
+  "command.showApplicability": "適用範囲を表示",
+  "command.openSettings": "設定を開く",
+  "config.title": "Agent Context Manager",
+  "config.agentsRoot": "エージェント構成の正規ディレクトリ。空欄にすると `~/.agents` を使用します。",
+  "config.showThirdPartySkills": "`~/.copilot/skills` や `~/.claude/skills` などのサードパーティの場所で検出されたスキルも一覧表示します。",
+  "config.enabledApps": "適用範囲ビューとエンティティのツールチップに表示されるアプリケーション。"
+}

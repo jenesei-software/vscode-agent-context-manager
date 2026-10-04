@@ -1,0 +1,18 @@
+{
+  "view.summary": "摘要",
+  "view.skills": "技能",
+  "view.rules": "规则与指令",
+  "view.agents": "代理",
+  "view.mcp": "MCP 服务器",
+  "view.commands": "命令",
+  "view.plugins": "插件",
+  "view.health": "健康状态",
+  "view.applicability": "适用性",
+  "command.refresh": "刷新",
+  "command.showApplicability": "显示适用性",
+  "command.openSettings": "打开设置",
+  "config.title": "Agent Context Manager",
+  "config.agentsRoot": "规范的代理配置目录。留空则使用 `~/.agents`。",
+  "config.showThirdPartySkills": "同时列出从第三方位置（如 `~/.copilot/skills` 和 `~/.claude/skills`）发现的技能。",
+  "config.enabledApps": "在“适用性”视图和实体提示中显示的应用程序。"
+}
