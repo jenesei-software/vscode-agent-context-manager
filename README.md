@@ -10,10 +10,6 @@ entity, its scope (global or project), overrides and — most importantly — wh
 applications pick it up (VS Code, Antigravity IDE, Antigravity/Gemini, Codex,
 opencode, Claude, Copilot).
 
-## 🚀 ACTUAL VERSIONS
-
-- `1.0.5`
-
 ## Screenshots
 
 <table>
